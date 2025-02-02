@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    text-align: center;
+}
+.MoreDiv {
+    margin-left: 90px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.inputs, textarea {
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#additional_content1, #additional_content2, #additional_content3, #additional_content4 {
+    margin-right: 90px; 
+    padding-top: 10px; /
+}
+
+.MoreBtn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5348c7;
+}
+
+#imagePreviewContainer {
+    margin-right: 50px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#imagePreview {
+    margin-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+.category_id{
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    width: 310px;
+}

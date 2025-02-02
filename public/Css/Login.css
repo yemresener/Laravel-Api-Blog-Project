@@ -1,0 +1,149 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+
+    margin-top: 450px;
+    margin-bottom: 350px; /* Bu zaten var */
+ /* İçeriği kapsayacak şekilde yüksekliği artırır */
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-register {
+    position: relative;
+    width: 100%;
+    
+    margin-top: 450px;
+    margin-bottom: 350px; /* Bu zaten var */
+ /* İçeriği kapsayacak şekilde yüksekliği artırır */
+    display: none;
+    flex-direction: column;
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 16px;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.login-btn {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.login-btn:hover, .register-btn:hover,.create-btn:hover {
+    background-color: #0056b3;
+}
+
+.register-btn{
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.create-btn{
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.route-login-btn{
+
+    background-color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;    
+}
+
+.register-link {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.register-link:hover {
+    color: #0056b3;
+}
+.show-login-password-btn, .show-register-password-btn {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 19px;
+    padding: 9 9 ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 15px;
+    margin-right: 400px;
+}
+
+#show-password-btn:hover {
+    background-color: #5a6268; /* Hover rengini biraz daha koyulaştır */
+}

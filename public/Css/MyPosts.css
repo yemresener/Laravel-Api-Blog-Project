@@ -1,0 +1,105 @@
+.NewestPostsAndPopular {
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 69px;
+}
+
+.NewestPostsAndPopular .left {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    width: 500px;
+    margin-left: 468px;
+}
+
+.NewestAndPopularContainer,
+#UnconfirmPostsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 380px); 
+    justify-content: center; 
+    gap: 70px; 
+    margin-top: 10px;
+}
+
+/* Genel Gönderi Stili */
+.Post, .UnconfirmPost {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    height: 280px;
+    width: 380px;
+    margin-top: 10px;
+    transition: transform 0.3s ease; 
+}
+
+.Post .MainImage, .UnconfirmPost .MainImage {
+    width: 100%;
+    height: 70%;
+    object-fit: fill;
+    border-radius: 4px;
+}
+
+.Post .CategoryDate, .UnconfirmPost .CategoryDate {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #555;
+}
+
+.Post label, .UnconfirmPost label {
+    margin-left: 5px;
+    margin-top: 10px;
+    display: block;
+    word-wrap: break-word;
+    white-space: normal;
+    font-size: 14px;
+    color: #333;
+}
+
+.Post:hover, .UnconfirmPost:hover {
+    transform: scale(1.03); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+/* Onaylanmamış Gönderi Özel Stili */
+.UnconfirmPost {
+    background-color: #ffe6e6; /* Açık kırmızı tonu */
+    border: 1px solid #ff4d4d; /* Kenar çizgisi */
+}
+
+.UnconfirmPost .CategoryDate {
+    color: #d32f2f; /* Kategori ve tarih bilgisi için koyu kırmızı */
+}
+
+.unconfirmedPosts {
+    margin-top: 150px;
+}
+.unconfirmedPosts .unconfirmed{
+    color: red;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+    width: 500px;
+    margin-left: 537px;
+}
+
+
+.paginator {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.paginator button {
+    padding: 8px 16px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.paginator button:hover {
+    background-color: #5a54e6;
+}

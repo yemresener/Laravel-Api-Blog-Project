@@ -1,0 +1,88 @@
+/* Genel stil ayarları */
+body {
+
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Yeni gönderiler bölümü */
+.NewestPosts {
+
+    max-width: 900px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Ana gönderi stil */
+.NewestPosts .post {
+    
+    margin-bottom: 40px;
+}
+
+/* Başlık 1 (Main Title) */
+.main-title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Başlık 2 (Secondary Title) */
+.secondary-title {
+    font-size: 2em;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Ana makale metni */
+.main-article, .secondary-article {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #666;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Görsel stil */
+.MainImage {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* İkinci gönderi stil */
+.NewestPosts .post.secondary {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.NewestPosts .post.secondary .secondary-title {
+    color: #555;
+}
+
+.NewestPosts .post.secondary .secondary-article {
+    color: #777;
+}
+
+/* Responsive tasarım */
+@media (max-width: 768px) {
+    .NewestPosts {
+        padding: 15px;
+    }
+
+    .main-title, .secondary-title {
+        font-size: 2em;
+    }
+
+    .main-article, .secondary-article {
+        font-size: 1em;
+    }
+}

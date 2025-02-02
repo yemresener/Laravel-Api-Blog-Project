@@ -1,0 +1,61 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: white; /* Login sayfasıyla uyumlu arkaplan */
+    color: #333;
+}
+
+.dashboard-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.dashboard-container {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.dashboard-container h2 {
+    margin-bottom: 90px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.dashboard-section {
+    margin-bottom: 30px;
+}
+
+.dashboard-section a {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.dashboard-logout-btn {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.dashboard-logout-btn:hover {
+    background-color: #0056b3;
+}

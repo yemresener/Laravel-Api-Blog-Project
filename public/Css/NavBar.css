@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: "Ubuntu", serif;
+    font-weight: 500px;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none; /* Alt çizgiyi kaldırır */
+    color: inherit;        /* Rengi değiştirme, ebeveynin rengini alır */
+}
+
+
+
+
+.NavBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    width: 100%;             
+}
+.NavBarColumn input{
+    border-radius: 7px;
+}
+/* Dropdown */
+.dropdown {
+    position: relative;  /* Menünün pozisyonunu kontrol eder */
+    display: inline-block;  /* Yatayda sıralar */
+}
+
+.dropdown-btn {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;  /* Başlangıçta gizli */
+    position: absolute;
+
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    
+    color: black;       
+    padding: 12px 5px;
+    text-decoration: none;
+    display: block;  /* Menü öğelerini dikeyde sıralar */
+}
+
+.dropdown-content a:hover {
+    border-radius: 3px;
+    background-color: gainsboro;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Dropdown */
+
+.search{
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,89 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: white; /* Login sayfasıyla uyumlu arkaplan */
+    color: #333;
+}
+
+.dashboard-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.dashboard-container {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.dashboard-container h1 {
+    margin-bottom: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.dashboard-section {
+    margin-bottom: 30px;
+}
+
+.dashboard-section a {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.dashboard-logout-btn {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+
+}
+
+.dashboard-logout-btn:hover {
+    background-color: #0056b3;
+}
+.inputs{
+    justify-content: center;
+    display: grid;
+}
+.inputs input{
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.inputs label{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.success-message {
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+}

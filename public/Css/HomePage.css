@@ -1,0 +1,107 @@
+/* Newest Posts*/
+
+
+.NewestPostsAndPopular{
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 69px;
+    
+}
+.NewestPostsAndPopular .left{
+    border-bottom: 2px solid black; /* Alt çizgiyi border-bottom ile ekliyoruz */
+    padding-bottom: 5px; /* Çizgi ile metin arasındaki boşluğu ayarlıyoruz */
+    width: 380px;
+    margin-left: 468px;
+}
+.NewestPostsAndPopular .right{
+    border-bottom: 2px solid black; /* Alt çizgiyi border-bottom ile ekliyoruz */
+    padding-bottom: 5px; /* Çizgi ile metin arasındaki boşluğu ayarlıyoruz */
+    width: 380px;
+    margin-left: 94px;
+}
+
+/* Newest and Popular Container */
+.NewestAndPopularContainer {
+    display: flex; /* Flexbox düzenini etkinleştirir */
+    justify-content:left; /* İçeriği yatayda ortalar */
+    gap: 94px; /* Elemanlar arasındaki boşluk */
+    margin-top: 20px;
+}
+
+/* Newest Posts */
+
+
+.NewestPosts {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 537px;
+    overflow: hidden;
+    position: relative;
+    height: 280px;
+    width: 380px; /* Ayırıcı için bir sınır */
+    transition: transform 0.3s ease;
+}
+.NewestPosts .MainImage {
+    width: 100%;
+    height: 70%;
+    object-fit: fill;
+    border-radius: 4px;
+}
+
+.NewestPosts .CategoryDate {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.NewestPosts label {
+    margin-left: 5px;
+    margin-top: 10px;
+    display: block;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.NewestPosts:hover{
+    transform: scale(1.03); 
+}
+
+/* Popular Posts */
+.PopularPosts {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    height: 280px;
+    width: 380px;/* Ayırıcı için bir sınır */
+    transition: transform 0.3s ease;
+}
+
+
+.PopularPosts .MainImage {
+    width: 100%;
+    height: 70%;
+    object-fit: fill;
+    border-radius: 4px;
+}
+
+.PopularPosts .CategoryDate {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.PopularPosts label {
+    margin-left: 5px;
+    margin-top: 10px;
+    display: block;
+    word-wrap:break-word;
+    white-space: normal;
+}
+
+.PopularPosts:hover{
+    transform: scale(1.03); 
+}
