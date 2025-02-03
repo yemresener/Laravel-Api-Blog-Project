@@ -1,6 +1,9 @@
+# Personal Blog Project
+## Introduction
+
 This project is a blog page built using APIs. It includes Home, Category, About Us, Login, Dashboard, Developer, Create, Update, and Post pages. Detailed review and introduction video: www.youtube.com/yemresener
 
-
+---
 
 
 
